@@ -1,6 +1,14 @@
 import os
+try:
+	import requets
+	import pystyle
+except:
+	os.system('pip install requests')
+	os.system('pip install pystyle')
+	import requets
+	import pystyle
+	from pystyle import *
 import threading
-import requests
 from pystyle import *
 import time
 import sys
