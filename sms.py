@@ -2,6 +2,7 @@ import os
 try:
 	import requets
 	import pystyle
+	from pystyle import *
 except:
 	os.system('pip install requests')
 	os.system('pip install pystyle')
@@ -9,7 +10,6 @@ except:
 	import pystyle
 	from pystyle import *
 import threading
-from pystyle import *
 import time
 import sys
 import uuid
